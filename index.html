@@ -4,6 +4,22 @@
 <head>
   <title>ASHURA-INFXN</title>
   <style>
+    <h2>Select Your Game 🎮</h2>
+
+<div class="game-menu">
+  <button onclick="selectGame('Free Fire')">Free Fire</button>
+  <button onclick="selectGame('Roblox')">Roblox</button>
+  <button onclick="selectGame('Driving Simulator')">Driving Sim</button>
+</div>
+
+<p id="gameResult"></p>
+
+<script>
+function selectGame(game) {
+  document.getElementById("gameResult").innerHTML =
+  "🔥 You Selected: " + game;
+}
+</script>
     body {
         background: url("https://images.unsplash.com/photo-1542751371-adc38448a05e") no-repeat center center fixed;
     background-size: cover;
@@ -34,7 +50,30 @@
       margin: 10px auto;
       width: 250px;
     }
-  </style>
+  .game-menu button {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #00ffcc, #0099ff);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.game-menu button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #ff00ff, #ff6600);
+  color: white;
+}
+
+#gameResult {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
 </head>
 <body>
   <h1>Player: ARAFAT G8</h1>
