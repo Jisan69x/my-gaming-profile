@@ -1,1 +1,54 @@
 # my-gaming-profile
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Gaming Profile</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #ffcc00;
+    }
+
+    .stats {
+      margin-top: 20px;
+    }
+
+    .stats p {
+      background-color: #333;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px auto;
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Player: ARAFAT G8</h1>
+  <h1>Player: MADROX</h1>
+  <img src="https://via.placeholder.com/150" alt="Profile Picture">
+  
+  <p>Level: 4</p>
+  <p>Guild: ASHURA-INFX</p>
+  <p>Main Game: Free Fire</p>
+
+  <div class="stats">
+    <p>Kills: 350</p>
+    <p>Wins: 75</p>
+    <p>Favorite Car: Lamborghini</p>
+  </div>
+</body>
+</html>
